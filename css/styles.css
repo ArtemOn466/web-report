@@ -126,7 +126,9 @@ a:hover {
   margin-left: 15px;
 }
 
-.list-content a:hover {
+.list-content a:hover,
+a:focus,
+a:active {
   background-color: transparent;
   text-decoration: underline;
 }
