@@ -72,7 +72,7 @@ a:hover {
 .lab {
   border: black 1px solid;
   border-radius: 5px;
-  padding: 0 120px;
+  padding: 0 60px;
 }
 
 .list {
@@ -106,8 +106,10 @@ a:hover {
   border: black 1px solid;
   border-radius: 5px;
   flex-grow: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   height: 500px;
-  padding-top: 10px;
+  padding: 10px 15px 0 15px;
 }
 
 .list-content h3 {
@@ -131,4 +133,41 @@ a:focus,
 a:active {
   background-color: transparent;
   text-decoration: underline;
+}
+
+.git {
+  text-decoration: underline;
+}
+
+.list-content li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.list-content ul:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.list-content .elements {
+  text-align: center;
+}
+
+td:not(:last-child) {
+  width: 15%;
+}
+
+#id {
+  border-collapse: collapse;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 0 5px 5px;
+}
+
+td:first-child {
+  text-align: center;
 }
