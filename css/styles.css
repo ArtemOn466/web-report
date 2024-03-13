@@ -49,7 +49,6 @@ a:hover {
 .title-text {
   margin-left: auto;
   margin-right: auto;
-  flex-grow: 1;
 }
 
 .labs {
@@ -82,7 +81,7 @@ a:hover {
   flex-direction: column;
   padding: 15px 15px;
   max-width: 400px;
-  max-height: 300px;
+  max-height: 600px;
   width: 100%;
   margin-right: 15px;
 }
@@ -170,4 +169,20 @@ td {
 
 td:first-child {
   text-align: center;
+}
+
+.face-photo {
+  height: 70px;
+  width: 60px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+
+#selectors {
+  margin-bottom: 0;
 }
