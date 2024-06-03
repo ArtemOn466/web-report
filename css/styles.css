@@ -154,6 +154,10 @@ td:not(:last-child) {
   width: 15%;
 }
 
+ul {
+  list-style: none;
+}
+
 #id {
   border-collapse: collapse;
   border: 1px solid black;
